@@ -71,6 +71,7 @@ a.nav-link {
 a.nav-link1.active,
 a.nav-link1 {
 	position: relative;
+	font-size: 16px;
 
 }
 
@@ -115,13 +116,13 @@ a.nav-link1:hover::before {
 
 .banner-btn {
 	border-radius: 50px;
-	padding: 10px 30px;
+	padding: 15px 40px;
 	background: #1A9082;
 	color: #fff;
 }
 
 .banner-transparent-btn {
-	padding: 10px 30px;
+	padding: 15px 40px;
 	border-radius: 50px;
 	color: #fff;
 }
@@ -140,8 +141,8 @@ a.nav-link1:hover::before {
 /*content box*/
 .content {
 	position: absolute;
-	bottom: -45%;
-	left: 7%;
+	bottom: -36%;
+	left: 11%;
 }
 
 .content-box {
