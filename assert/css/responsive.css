@@ -1,0 +1,50 @@
+@media screen and (max-width: 840px) {
+
+	/*	banner*/
+	.banner-left {
+		height: 30vh;
+
+	}
+
+	.navbar-toggler {
+		background: #fff;
+	}
+
+	.extra-background {
+		padding: 0px;
+	}
+
+	/*	banner*/
+
+	/*content*/
+	.content {
+		position: unset;
+		padding: 50px 0px;
+	}
+
+	/*content*/
+
+}
+
+@media screen and (max-width: 480px) {
+
+	/*	header*/
+	.top-nav-number {
+		padding: 0px;
+	}
+
+	.header-social {
+		display: none;
+	}
+
+	/*	header*/
+
+	/*banner*/
+	.banner-left {
+		height: 40vh;
+
+	}
+
+	/*banner*/
+
+}

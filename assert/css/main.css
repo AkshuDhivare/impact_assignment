@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*common css*/
+body {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+::selection {
+	background: #F85A40;
+	color: #fff;
+}
+
+/*common css*/
+
+/*header */
+.top-nav a:hover {
+	font-weight: 500;
+	text-shadow: 0 0 5px #000;
+}
+
+.orange {
+	color: #f96f59;
+}
+
+/*header */
+
+
+.banner-bg {
+	background: #008374;
+}
+
+/*navbar*/
+.top-nav {
+	background: #00796B;
+	box-shadow: 0 0 5px #ddd;
+}
+
+.top-nav-number {
+	padding: 0px 5px
+}
+
+
+a.nav-link.active,
+a.nav-link {
+	color: #fff !important;
+}
+
+a.nav-link1.active,
+a.nav-link1 {
+	position: relative;
+
+}
+
+a.nav-link1::before {
+	content: '';
+	position: absolute;
+	border-bottom: 3px solid #F85A40;
+	border-radius: 10px;
+	width: 0%;
+	bottom: 0px;
+	left: 15px;
+	transition: all 0.3s ease-in-out;
+}
+
+a.nav-link1.active:hover::before,
+a.nav-link1:hover::before {
+	font-weight: 800;
+	width: 60%
+}
+
+/*navbar*/
+
+
+/*banner*/
+.banner-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 66vh;
+	position: relative;
+}
+
+.extra-background {
+	padding: 40px;
+}
+
+
+.banner-left h1 {
+	font-size: 48px;
+	font-weight: 600;
+}
+
+.banner-btn {
+	border-radius: 50px;
+	padding: 10px 30px;
+	background: #1A9082;
+	color: #fff;
+}
+
+.banner-transparent-btn {
+	padding: 10px 30px;
+	border-radius: 50px;
+	color: #fff;
+}
+
+.banner-btn:hover,
+.banner-transparent-btn:hover {
+	/*	border: 1px solid #fff;*/
+	color: #fff;
+	box-shadow: 0 0 10px #fff;
+
+}
+
+/*banner css*/
+
+
+/*content box*/
+.content {
+	position: absolute;
+	bottom: -45%;
+	left: 7%;
+}
+
+.content-box {
+	background: #008F7E;
+	border: 1px solid black;
+	border-radius: 8px;
+	padding: 50px;
+	text-align: center;
+	box-shadow: 0px 0px 5px 1px #000;
+}
+
+.content-box:hover {
+	box-shadow: 0px 0px 5px 2px #fff;
+
+}
+
+/*content box*/
