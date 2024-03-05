@@ -1,5 +1,13 @@
 @media screen and (max-width: 840px) {
-
+	/*	banner*/
+a.nav-link1.active:hover::before,
+a.nav-link1:hover::before {
+	font-weight: 800;
+	width: 15%;
+	left: 0px;
+}
+	/*	banner*/
+	
 	/*	banner*/
 	.banner-left {
 		height: 30vh;
