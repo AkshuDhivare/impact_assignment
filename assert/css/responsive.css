@@ -1,5 +1,13 @@
 @media screen and (max-width: 840px) {
-
+	/*	navbar*/
+a.nav-link1.active:hover::before,
+a.nav-link1:hover::before {
+	font-weight: 800;
+	width: 15%;
+	left: 0px;
+}
+	/*	navbar*/
+	
 	/*	banner*/
 	.banner-left {
 		height: 30vh;
@@ -44,6 +52,15 @@
 		height: 40vh;
 
 	}
+
+	.banner-btn {
+padding: 15px 24px;
+
+}
+
+.banner-transparent-btn {
+	padding: 10px 24px;
+}
 
 	/*banner*/
 
